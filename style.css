@@ -1,0 +1,25 @@
+/* position: static, initial, inherit, (relative,absolute,fixed,sticky) whereever there is those 4 position on parent the child will follow*/
+.parent {
+  background: grey;
+  min-height: 90vh;
+  padding: 1rem;
+}
+.parent > div {
+  min-height: 150px;
+  color: white;
+}
+.c1 {
+  background: red;
+  position: sticky;
+}
+.c2 {
+  background-color: green;
+  position: relative;
+  left: 10px;
+  bottom: 20px;
+}
+.c3 {
+  background: blue;
+  position: sticky;
+  top: 10px;
+}
